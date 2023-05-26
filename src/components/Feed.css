@@ -1,0 +1,95 @@
+.feed{
+    padding: 5px;
+    flex: 0.6;
+    margin-top: 10px;
+ 
+}
+.feed_input{
+    height: 42px;
+    /* width: 100%; */
+    display: flex;
+    border-radius: 30px;
+    border: 1px solid lightgray;
+    outline: none;
+    color: gray;
+    padding-left: 15px;
+    align-items: center;
+}
+
+.feed_input > form{
+    display: flex;
+    width: 100%;
+    
+}
+
+.feed_input > form > button{
+    display: none;
+}
+
+.feed_input > form > input{
+    border: none;
+    flex: 1;
+
+    margin-left: 10px;
+    outline-width: 0;
+    font-weight: 600;
+    border-radius: 33px;
+}
+
+.feed_inputContainer {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    color: gray;
+    background-color: white;
+    padding: 13px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+}
+
+.feed{
+    
+}
+.feed_inputContainer > input:hover{
+    
+    background-color: rgb(230, 228, 228);
+    
+}
+.feed_inputContainer > input::placeholder{
+    padding: 10px;
+}
+.feed_inputoptions{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+/* 
+.addMore{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-bottom: 10px;
+} */
+/* .addMore_items{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    color: gray;
+}
+
+.addMore_items > span{
+    margin-right: 10px;
+}
+
+.feed_photo{
+    margin-left: 10px;
+}
+
+.feed_post{
+    border: 1px solid lightgrey;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+} */

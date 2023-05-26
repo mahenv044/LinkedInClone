@@ -1,0 +1,36 @@
+.widget{
+    border: 1px solid lightgray;
+    padding: 10px;
+    position: sticky;
+    top: 80px;
+    border-radius: 10px;
+    height: fit-content;
+    margin-top: 10px;
+    /* padding-right: 40px; */
+    background-color: white;
+}
+
+.widget_header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.widget > ul{
+    color: black;
+    border: gray;
+}
+
+.widget > ul > li{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 14px;
+     color: rgb(43, 39, 39);
+   /* font-weight: 400;
+    font-weight: bolder; */
+    margin-right: 20px;
+    font-weight: var(--artdeco-reset-typography-font-weight-bold)
+}
+
+.widget > h4{
+    font-weight: 500;
+}
